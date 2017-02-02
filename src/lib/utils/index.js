@@ -28,7 +28,7 @@ export {
 
 export * from "./strokeDasharray";
 
-export function getLogger(prefix) {
+export function getLogger(prefix) { // eslint-disable-line
 	return noop;
 }
 

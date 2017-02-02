@@ -74,7 +74,7 @@ function getCursorStyle(useCrossHairStyleCursor) {
 	.react-stockcharts-ew-resize-cursor {
 		cursor: ew-resize;
 	}`;
-	return (<style type="text/css">{useCrossHairStyleCursor ? style + tooltipStyle : tooltipStyle}</style>);
+	return <style type="text/css">{useCrossHairStyleCursor ? style + tooltipStyle : tooltipStyle}</style>;
 }
 
 function getDimensions(props) {
